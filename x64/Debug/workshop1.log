@@ -1,0 +1,27 @@
+﻿Display.obj : error LNK2019: unresolved external symbol glewInit referenced in function "public: __cdecl Display::Display(int,int,char const *)" (??0Display@@QEAA@HHPEBD@Z)
+Display.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: __cdecl Display::Display(int,int,char const *)" (??0Display@@QEAA@HHPEBD@Z)
+Display.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl Display::Display(int,int,char const *)" (??0Display@@QEAA@HHPEBD@Z)
+Display.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: __cdecl Display::Display(int,int,char const *)" (??0Display@@QEAA@HHPEBD@Z)
+Display.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function "public: virtual __cdecl Display::~Display(void)" (??1Display@@UEAA@XZ)
+Display.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl Display::IsClosed(void)" (?IsClosed@Display@@QEAA_NXZ)
+Display.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "public: void __cdecl Display::Update(void)" (?Update@Display@@QEAAXXZ)
+Display.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: __cdecl Display::Display(int,int,char const *)" (??0Display@@QEAA@HHPEBD@Z)
+Display.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Display::Update(void)" (?Update@Display@@QEAAXXZ)
+Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __glewDetachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewValidateProgram
+C:\Users\Yusuf\source\OpenGl\workshop1\Dependencies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Yusuf\source\OpenGl\workshop1\Dependencies\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Yusuf\source\OpenGl\workshop1\x64\Debug\workshop1.exe : fatal error LNK1120: 24 unresolved externals

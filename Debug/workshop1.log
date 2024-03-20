@@ -1,0 +1,9 @@
+﻿  Mesh.cpp
+  Display.cpp
+  Shader.cpp
+  workshop.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+  workshop1.vcxproj -> C:\Users\Yusuf\source\OpenGl\workshop1\Debug\workshop1.exe
